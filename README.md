@@ -11,4 +11,4 @@
   
   ![](https://media.tenor.com/AlUkiGkR2j8AAAAC/new-game-ahagon-umiko-programming.gif).
 
-  ![](https://media.tenor.com/sOy6AOpcMNwAAAAd/aumento-salario.gif).
+  ![]([https://media.tenor.com/sOy6AOpcMNwAAAAd/aumento-salario.gif](https://media.tenor.com/A3OZwHoWjIsAAAAd/jason-harvey.gif)https://media.tenor.com/A3OZwHoWjIsAAAAd/jason-harvey.gif).
