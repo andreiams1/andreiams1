@@ -9,6 +9,5 @@
 - 🖥️ estou tralhandoo em um projeto de _HTML_.
 
   
-  ![](https://media.tenor.com/AlUkiGkR2j8AAAAC/new-game-ahagon-umiko-programming.gif).
+ ![](![image](https://github.com/andreiams1/andreiams1/assets/150395921/53a9c988-40de-4426-ba41-4794471c5142)
 
-![](https://media.tenor.com/A3OZwHoWjIsAAAAd/jason-harvey.gif).
