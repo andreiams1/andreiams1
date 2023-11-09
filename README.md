@@ -8,6 +8,4 @@
 - 📧 Email para contato: machado.silva.andreia@escola.pr.gov.br
 - 🖥️ estou tralhandoo em um projeto de _HTML_.
 
-  
- ![](https://tenor.com/pt-BR/view/bear-done-typing-slow-sugar-bear-gif-15436243).
-
+  ![](https://tenor.com/pt-BR/view/bear-done-typing-slow-sugar-bear-gif-15436243).
