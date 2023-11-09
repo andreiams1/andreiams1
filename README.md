@@ -9,6 +9,7 @@
 - 🖥️ estou tralhandoo em um projeto de _HTML_.
   📎 Clique aqui para acessar o [Alura](https://www.alura.com.br/).
 
+
   ![](https://tenor.com/pt-BR/view/bear-done-typing-slow-sugar-bear-gif-15436243).
 
 
