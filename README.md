@@ -1,11 +1,14 @@
 ### Hi there 👋
 
-<!--
-**andreiams1/andreiams1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+**andreiams1/andreiams1** 
 
-- 🔭 I’m currently working on ...
+- 🔭 Atualmente estou estudando `HTML` e `CSS`.
+  💻Aluno do Curso **Manutenção** e Suporte em Informática.
+  📧 Email para contato: machado.silva.andreia@escola.pr.gov.br
+  🖥️ estou tralhandoo em um projeto de HTML.
+
+- 
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
@@ -13,4 +16,4 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+
