@@ -1,9 +1,99 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="Página-1" id="Ii67uzaMVtzxugATUj2Q">
-    <mxGraphModel>
+    <mxGraphModel dx="1707" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-2" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-4" value="&lt;div&gt;numero_secreto, palpite, tentativas : inteiro&lt;br/&gt;    minimo, maximo : inteiro&lt;br/&gt;    resposta : caractere&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="130" width="232.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="74.5" y="90" as="sourcePoint" />
+            <mxPoint x="74.5" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-14" value="mostrar (&quot;Digite um numero de 1 a 100&quot;)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="390" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70.75" y="190" as="sourcePoint" />
+            <mxPoint x="70.75" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-16" value="&amp;nbsp; &amp;nbsp;minimo := 1&lt;br&gt;maximo := 100&lt;br&gt;numero_secreto := aleatorio(minimo, maximo) //&amp;nbsp;&lt;div&gt;Gera um número aleatório entre minimo e maximo&lt;br&gt;tentativas := 0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="250" width="295" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="64.5" y="330" as="sourcePoint" />
+            <mxPoint x="64.5" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-20" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (palpite == numeroSecreto)&lt;font face=&quot;monospace&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;mostrar (&quot; Você Acertou)&lt;br&gt;&lt;/font&gt;&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="650" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-21" value="&#xa;tentativas = tentativas + 1&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="530" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nr9_433Xi6NtjDVFM_yA-14" target="nr9_433Xi6NtjDVFM_yA-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="510" as="sourcePoint" />
+            <mxPoint x="100" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.555;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nr9_433Xi6NtjDVFM_yA-21" target="nr9_433Xi6NtjDVFM_yA-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="510" as="sourcePoint" />
+            <mxPoint x="100" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-27" value="&lt;span class=&quot;hljs-keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (palpite &amp;lt; numeroSecreto)&lt;div&gt;dica (&quot;numero maior&quot;)&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="650" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-28" value="else&lt;div&gt;dica ( Numero Menor&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="860" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nr9_433Xi6NtjDVFM_yA-20" target="nr9_433Xi6NtjDVFM_yA-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="810" as="sourcePoint" />
+            <mxPoint x="230" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nr9_433Xi6NtjDVFM_yA-20" target="nr9_433Xi6NtjDVFM_yA-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="810" as="sourcePoint" />
+            <mxPoint x="230" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-32" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="610" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-33" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="688" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-34" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="818" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-35" value="fim" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="295" y="930" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nr9_433Xi6NtjDVFM_yA-27" target="nr9_433Xi6NtjDVFM_yA-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="870" as="sourcePoint" />
+            <mxPoint x="340" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nr9_433Xi6NtjDVFM_yA-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.317;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nr9_433Xi6NtjDVFM_yA-28" target="nr9_433Xi6NtjDVFM_yA-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="830" as="sourcePoint" />
+            <mxPoint x="350" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
